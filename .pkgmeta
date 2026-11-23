@@ -4,7 +4,7 @@ enable-nolib-creation: no
 
 externals:
   Libs/lib-pardona:
-    url: https://github.com/KempaLars/lib-pardona
+    url: https://github.com/Pardonas-addons/lib-pardona
     tag: latest
 
 ignore:

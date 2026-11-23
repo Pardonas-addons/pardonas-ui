@@ -3,7 +3,7 @@
 #
 # Source, in this order:
 #   1. sibling repository ..\lib-pardona (local development)
-#   2. git clone --depth 1 https://github.com/KempaLars/lib-pardona
+#   2. git clone --depth 1 https://github.com/Pardonas-addons/lib-pardona
 #
 # Repository-only files (.git, .github, media, lint/packager configs and all *.md files
 # in the library root) are skipped.
@@ -15,7 +15,7 @@ $repoRoot = Split-Path -Parent $PSScriptRoot
 $libsDir  = Join-Path $repoRoot 'Libs'
 $target   = Join-Path $libsDir 'lib-pardona'
 $sibling  = Join-Path (Split-Path -Parent $repoRoot) 'lib-pardona'
-$url      = 'https://github.com/KempaLars/lib-pardona'
+$url      = 'https://github.com/Pardonas-addons/lib-pardona'
 $skip     = @('.git', '.github', '.gitignore', '.luacheckrc', '.pkgmeta', '.release', 'media')
 
 function Test-Skipped($item) {
