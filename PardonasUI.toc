@@ -3,6 +3,7 @@
 ## Notes: Purple-gold look for minimap, buffs, loot, group loot and trade window. Settings under "Pardona's Addons" or via /pui.
 ## Notes-deDE: Lila-goldene Optik für Minimap, Buffs, Beute, Gruppenbeute und Handelsfenster. Einstellungen unter "Pardona's Addons" oder per /pui.
 ## Author: L. Kempa
+## X-Website: https://pardonas-addons.de/ui/
 ## Version: @project-version@
 ## SavedVariables: PardonasUIDB
 ## IconTexture: Interface\AddOns\PardonasUI\Libs\lib-pardona\LibPardona-1.0\Textures\Pardona

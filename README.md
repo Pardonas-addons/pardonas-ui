@@ -2,6 +2,9 @@
 
 Purple-gold look for parts of the default World of Warcraft Forever interface.
 
+**Handbook:** https://pardonas-addons.de/ui/ (English) · https://pardonas-addons.de/de/ui/ (Deutsch)  
+**Changelog:** [CHANGELOG.md](CHANGELOG.md)
+
 Pardona's UI is part of the Pardona addon suite and also runs on its own – it does not need any other Pardona addon. It only changes the look of Blizzard frames: positions, sizes and scale stay with Edit Mode, and no frame is moved, reparented or rescripted. Tooltips are not touched.
 
 The styling itself comes from the style API of the shared library LibPardona-1.0 (LibPardona 1.1.0). **Current state:** the minimap and buff/debuff modules are styled; loot window, group loot rolls and trade window are not styled yet. If the loaded LibPardona has no style API, every module shows "waiting for LibPardona 1.1.0" and changes nothing.
